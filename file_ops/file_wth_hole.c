@@ -1,3 +1,8 @@
+/*
+Create a new file using O_CREAT , since the file is created in RD mode, close the file, reopen the file 
+Perform the following actions on the file : Write data, create a hole 
+*/
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
