@@ -8,7 +8,7 @@ int main()
 	void* ptr;
         printf("\n ptr is %x \n", ptr);
 
-        printf("\n ptr is %x page size", getpagesize());
+        printf("\n ptr is 0x%x page size", getpagesize());
 
 	return 0;
 }
