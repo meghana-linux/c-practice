@@ -38,7 +38,7 @@ int main()
 
         printf("***************************************************\n");
 
-//	ptr = NULL;
+	ptr = NULL;
         printf("\n after free-NULL ptr[0]=%c ",ptr[0]);
 
         printf("\n after free-NULL ptr = 0x%x \n", ptr);
